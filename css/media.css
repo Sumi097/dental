@@ -1,4 +1,23 @@
- 
+@media (max-width:375px) {
+    .height {
+        align-items: center;
+        min-height: 0;
+    }
+    .height_content {
+        align-items: center;
+        min-height: 0;
+    }
+    .banner h1 {
+        font-size: 23px !important;
+    }
+    .banner h2 {
+        font-size: 20px;
+    }
+
+ }
+
+
+
  @media (max-width:575px) {
     .logo {
         text-align: center;
@@ -122,9 +141,8 @@
 
 .teeth_info .teeth p {
     font-size: 12px;
-   
     margin: auto;
-    padding: 10px 10px 0 0;
+    padding: 10px 48px  0;
 }
 .teeth img {
     width: 29px;
@@ -134,12 +152,12 @@
     display: none;
 }
 .teeth_info {
-    display: flex;
-    align-items: center;
-    width: 95%;
-    margin-left: auto;
-    text-align: center;
-    margin-top: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 100%;
+    /* margin-left: auto; */
+    /* text-align: center; */
+    /* margin-top: 20px; */
 }
 
 .tooth h3 {
@@ -245,7 +263,7 @@
     margin-top: 33px;
 }
 .left {
-    text-align: center;
+    
     margin-bottom: 20px;
 }
 .logo_pic img {
@@ -254,35 +272,16 @@
     footer {
         padding: 26px 0;
     }
-.left ul li {
-    display: block;
-    margin: 0 20px;
+
+.list {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
 }
 
 .left p {
     font-size: 12px;
     padding: 0 50px;
-}
-.left ul li a {
-    padding: 0;
-    font-size: 10px;
-    text-decoration: none;
-}
-
-.left ul li i {
-    width: 24px;
-    font-size: 17px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 8px;
-}
-.left ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
 }
 .middle ul li {
     margin-bottom: 20px;
@@ -398,8 +397,7 @@ form {
             text-align: center;
         }
         .banner h2 {
-            font-size: 29px;
-            
+            font-size: 25px;
         }
         .banner h1 {
       
@@ -429,6 +427,12 @@ form {
                 text-align: center;
                 padding: 60px 0;
             }
+            .height_content h2 {
+                font-size: 23px;
+            }
+            .height_content h1 {
+                font-size: 39px;
+            }
             
 .tooth p {
     font-size: 12px;
@@ -438,8 +442,7 @@ form {
 
 .teeth_info .teeth p {
     font-size: 12px;
-    margin: auto;
-    padding: 10px 10px 0 0;
+  
 }
 .teeth img {
     width: 29px;
@@ -449,15 +452,14 @@ form {
     display: none;
 }
 .teeth_info {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-left: auto;
-    text-align: center;
-    margin-top: 20px;
+
+text-align: center;
+
+margin-top: 20px;
 }
 .teeth {
-    padding: 0 3px;
+   
+    margin-bottom: 25px;
 }
 
 .tooth h3 {
@@ -542,30 +544,18 @@ footer {
     padding: 30px 0 0 0;
 }
 .left {
-    text-align: center;
+  
     margin-bottom: 20px;
 }
-.left ul li i {
-    width: 31px;
-    font-size: 18px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.left ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.left ul li {
-    display: block;
-    margin: 0 15px;
-}
+
 .left p {
    
-    font-size: 12px;
+font-size: 12px;
+   
+padding: 0px 83px 0 0;
+}
+.list {
+  
 }
 .left ul li a {
   
@@ -610,12 +600,12 @@ form {
     font-size: 11px;
 }
 .d_pics {
-    width: 90%;
+    width: 100%;
     position: relative;
 }
 .doctor {
     border: 1px solid #9999991c;
-    width: 90%;
+    width: 100%;
 }
 }
 
